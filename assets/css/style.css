@@ -2,6 +2,10 @@ body{
   background-color: #f7f7f7;
 }
 
+ul {
+  list-style-type: none;
+}
+
 hr{
   color: grey;
 }
@@ -86,6 +90,7 @@ textarea {
 #sidebarMenu{
   background-color: #eae8ff;
   border-radius: 19px;
+  padding-bottom: 10px;
 }
 
 
@@ -252,6 +257,9 @@ textarea {
     margin-top: 80px;
     margin-bottom: auto;
   }
+
+
+
   .card{
     height: 500px;
     width: 656px;
@@ -479,4 +487,23 @@ margin: 0;
 .contacts_card{
   margin-bottom: 15px !important;
 }
+}
+
+
+
+.profileabout{
+  margin-top: 70px;
+  margin-left: 300px;
+}
+
+.profilecardimg .card{
+  width: 22rem;
+  height: 35rem;
+  margin-left: 50px;
+  
+}
+
+.profilecardimg img{
+  width: 20rem;
+  height: 20rem;
 }
