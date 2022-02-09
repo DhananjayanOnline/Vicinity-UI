@@ -495,6 +495,15 @@ margin: 0;
 .profileabout{
   margin-top: 70px;
   margin-left: 300px;
+  border: none;
+  
+}
+
+
+.profileinfo .card-header{
+  margin: -16px;
+  border: none;
+  border-radius: 90px;
 }
 
 .profilecardimg .card{
@@ -502,11 +511,12 @@ margin: 0;
   height: 33rem;
   margin-left: 50px;
   border: none;
-  border-radius: 20px !important;
+  border-radius: 10px !important;
   
 }
 
 .profilecardimg img{
+  border-radius: 10px 10px 0 0;
   width: 20rem;
   height: 20rem;
 }
@@ -550,3 +560,41 @@ margin: 0;
   padding: 7px;
 }
 
+
+/* ---------------------------------Complaints------------------------------------------- */
+
+.complaints{
+  margin-top: 5rem;
+  margin-left: 20rem;
+  width: 70%;
+}
+
+.complaints h6{
+  /* margin-left: px !important; */
+  margin-top: -20px;
+  margin-bottom: 50px;
+  background-color: #eae8ff;
+  border-radius: 20px;
+  width: 100%;
+  height: 55px;
+  text-align: center;
+}
+
+.complaints #validationCustom01,#validationCustom02, #inputGroupPrepend, #validationCustomUsername{
+  margin-top: 10px;
+}
+
+
+.complaints #contactemail, #contactdepartment, #complaintbox{
+  margin-top: 10px;
+}
+
+.complaints .sidebarright{
+  margin-left: -20rem;
+  margin-top: -51px;
+}
+
+.complaints .btn{
+  margin-bottom: 20px;
+  background-color: #1E90FF;
+}
