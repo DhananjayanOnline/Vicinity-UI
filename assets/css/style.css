@@ -489,6 +489,7 @@ margin: 0;
 }
 }
 
+/*---------------------------------------------- profile section --------------------------------------------*/
 
 
 .profileabout{
@@ -498,8 +499,10 @@ margin: 0;
 
 .profilecardimg .card{
   width: 22rem;
-  height: 35rem;
+  height: 33rem;
   margin-left: 50px;
+  border: none;
+  border-radius: 20px !important;
   
 }
 
@@ -507,3 +510,43 @@ margin: 0;
   width: 20rem;
   height: 20rem;
 }
+
+
+/*---------------------------------------- neighbours section ------------------------------------ */
+
+.neighbours .card{
+  
+  height: 23rem;
+  margin-left: 17rem;
+  margin-top: 5rem;
+  border-radius: 20px;
+  
+}
+
+.neighbours img{
+  width: 237px;
+  height: 237px;
+  border-radius: 12px 12px 0 0;
+}
+
+.neighbours .card-body{
+  padding: 10px;
+}
+
+.neighbours h6{
+  margin-left: 275px;
+  margin-top: 70px;
+  margin-bottom: -50px;
+  background-color: #eae8ff;
+  border-radius: 20px;
+  width: 77%;
+  height: 55px;
+}
+
+.neighbours .btn{
+  border-radius: 0 0 10px 10px;
+  background-color: #1E90FF;
+  border: none;
+  padding: 7px;
+}
+
